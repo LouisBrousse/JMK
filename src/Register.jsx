@@ -1,6 +1,6 @@
 import Header from './components/header.jsx';
 import Footer from './components/footer.jsx';
-import './Register.css'; // Import du fichier CSS spécifique
+import './Register.css'; 
 
 function Register() {
   return (

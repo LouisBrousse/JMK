@@ -1,0 +1,32 @@
+.buttoncontainer {
+    display: flex;
+    justify-content: space-between; /* Espace entre les boutons */
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #42974B;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    width: calc(100% - 40px); /* Largeur de la même taille que Bulle1 */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  .buttoncontainer .btn {
+    background-color: #42974B; /* Fond vert */
+    color: white; /* Texte en blanc */
+    width: 48%; /* Largeur des boutons égale à 48% pour qu'ils soient côte à côte */
+    border-radius: 8px; /* Coins arrondis */
+    font-size: 1.25rem; /* Taille du texte du bouton */
+    padding: 15px; /* Espacement intérieur */
+    border: none; /* Supprime la bordure par défaut */
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Effet de survol pour rendre le bouton un peu plus foncé */
+  .buttoncontainer .btn:hover {
+    background-color: #36753E; /* Vert légèrement plus foncé au survol */
+  }
+  

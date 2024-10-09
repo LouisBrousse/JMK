@@ -1,0 +1,17 @@
+.bulletitre-button {
+    background-color: #42974B; /* Fond vert */
+    color: white; /* Texte en blanc */
+    padding: 10px 20px; /* Espace intérieur */
+    border-radius: 8px; /* Coins arrondis */
+    font-size: 1rem; /* Taille du texte */
+    text-align: center; /* Centre le texte */
+    display: inline-block; /* Comportement comme un bouton */
+    width: 100%; /* Prend toute la largeur disponible */
+    box-sizing: border-box; /* Inclut le padding dans la largeur */
+  }
+  
+  .bulletitre-button h2 {
+    margin: 0; /* Supprime les marges par défaut */
+    font-size: 1.25rem; /* Taille du texte ajustée */
+  }
+  

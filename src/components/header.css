@@ -1,0 +1,38 @@
+/* src/components/Header.css */
+
+.bg-custom {
+    background-color: #42974B;
+    height: 5rem;
+  }
+  
+  /* Flexbox to center elements */
+  .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 0;
+    height: ;
+    position: relative;
+  }
+  
+  /* Logo container centered using absolute positioning */
+  .logo-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000; /* S'assure que le logo est toujours au-dessus du reste */
+  }
+  
+  /* Styles for the logo */
+  .logo {
+    max-width: 200px; /* Taille maximum du logo (modifiable) */
+    height: auto;
+  }
+  
+  /* Responsive: Adjust logo size for smaller screens */
+  @media (max-width: 768px) {
+    .logo {
+      max-width: 100px; /* Taille réduite pour petits écrans */
+    }
+  }
+  

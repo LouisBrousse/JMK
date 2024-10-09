@@ -1,0 +1,13 @@
+/* Couleur personnalisée utilisée dans le header et le footer */
+.bg-custom {
+    background-color: #42974B; /* Vert du header */
+  }
+  
+  /* Footer fixé en bas */
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Prendre toute la largeur de l'écran */
+    text-align: center; /* Centrer le texte */
+  }
+  

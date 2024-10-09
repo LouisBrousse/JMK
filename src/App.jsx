@@ -1,18 +1,28 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './components/header.jsx';
-import Footer from './components/footer.jsx';
+import Register from './Register.jsx';
+import Profile from './Profile.jsx';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/register",
+    element: <Register />,
+  },
+  {
+    path: "/profile",
+    element: <Profile />,
+  },
+]);
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Header />
-       
-       
-      <Footer />
-    </>
+    <RouterProvider router = {router}/>
   )
 }
 

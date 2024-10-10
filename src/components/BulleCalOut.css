@@ -1,10 +1,10 @@
 .bulle-cal-out {
-    background-color: #ffc107; /* Fond jaune */
-    color: white; /* Texte en blanc */
+    background-color: #ffc107;
+    color: white; 
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    width: 150px; /* Taille fixe */
+    width: 150px; 
     box-sizing: border-box;
   }
   
@@ -14,7 +14,7 @@
   }
   
   .calories {
-    font-size: 1rem; /* Taille du chiffre */
+    font-size: 1rem; 
     font-weight: bold;
     margin-top: 10px;
   }

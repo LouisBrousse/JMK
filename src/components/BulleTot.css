@@ -1,17 +1,17 @@
 .bulletot {
-  background-color: #ec8d20; /* Fond gris clair pour l'intérieur de la bulle */
+  background-color: #ec8d20;
   font-size: 1rem;
-  border-radius: 15px; /* Coins arrondis pour l'effet bulle */
-  padding: 20px; /* Espace interne */
-  margin: 20px auto; /* Centre la bulle horizontalement avec une marge */
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto; 
   width: calc(
     100% - 40px
-  ); /* Prend la largeur totale de la page moins la marge */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Légère ombre pour donner du relief */
-  box-sizing: border-box; /* S'assure que le padding est inclus dans la largeur */
+  ); 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 .balance {
-  font-size: 1rem; /* Taille du chiffre */
+  font-size: 1rem;
   font-weight: bold;
   margin-top: 10px;
 }

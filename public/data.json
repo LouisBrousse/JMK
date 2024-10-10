@@ -1,0 +1,18 @@
+{
+    "id": "0000",
+    "profile": {
+      "age": 40,
+      "poids": 102,
+      "taille": 180
+    },
+    "objectif": {
+      "type": "pertedepoids",
+      "caloriesInTarget": 1800,
+      "caloriesOutTarget": 2500
+    },
+    "realise": {
+      "ResCalIn": 2000,
+      "ResCalOut": 1000
+    }
+  }
+  

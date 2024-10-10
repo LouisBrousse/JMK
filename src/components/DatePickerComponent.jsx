@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import DatePicker from 'react-datepicker';
-import 'react-datepicker/dist/react-datepicker.css'; // Importe les styles par défaut de react-datepicker
+import 'react-datepicker/dist/react-datepicker.css';
 
 const DatePickerComponent = () => {
   const [selectedDate, setSelectedDate] = useState(null);

@@ -1,6 +1,5 @@
 import React from 'react';
-import './BulleTitre.css'; // Fichier CSS pour styliser Bulletitre
-
+import './BulleTitre.css'; 
 const BulleTitre = ({ title }) => {
   return (
     <div className="bulletitre-button">

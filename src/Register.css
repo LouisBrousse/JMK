@@ -1,40 +1,37 @@
 .form-register {
-    max-width: 400px; /* Limite la largeur du formulaire sur mobile */
-    margin: 0 auto; /* Centre le formulaire */
-    padding: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.form-outline input {
+  padding: 10px;
+}
+
+.btn {
+  padding: 12px 20px;
+}
+
+@media (max-width: 768px) {
+  .form-register {
+    width: 100%;
   }
-  
-  .form-outline input {
-    padding: 10px; /* Augmente la taille des champs pour une meilleure accessibilité mobile */
+
+  .social-buttons button {
+    font-size: 1.25rem;
   }
-  
+}
+
+@media (max-width: 390px) {
+  .form-register {
+    padding: 10px;
+  }
+
   .btn {
-    padding: 12px 20px; /* Meilleure taille de bouton pour mobile */
+    padding: 10px 15px;
   }
-  
-  /* Styles spécifiques pour petits écrans */
-  @media (max-width: 768px) {
-    .form-register {
-      width: 100%; /* Formulaire prend toute la largeur sur petit écran */
-    }
-  
-    .social-buttons button {
-      font-size: 1.25rem; /* Agrandit les icônes des réseaux sociaux */
-    }
+
+  .form-outline input {
+    padding: 8px;
   }
-  
-  /* Ajustement pour un iPhone 12 (largeur 390px) */
-  @media (max-width: 390px) {
-    .form-register {
-      padding: 10px; /* Réduction du padding sur iPhone 12 */
-    }
-  
-    .btn {
-      padding: 10px 15px; /* Boutons légèrement plus petits pour s'adapter */
-    }
-  
-    .form-outline input {
-      padding: 8px; /* Champs légèrement plus petits */
-    }
-  }
-  
+}

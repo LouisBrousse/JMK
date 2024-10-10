@@ -1,5 +1,5 @@
 import React from 'react';
-import './BulleCalOut.css'; // Fichier CSS pour styliser BulleCalOut
+import './BulleCalOut.css';
 
 const BulleCalOut = ({ calories }) => {
   return (

@@ -1,3 +1,12 @@
+# Installation
+Installation Linux :
+
+pré-requis: nodeJS
+
+lien pour cloner le repo : 	https://github.com/LouisBrousse/JMK.git
+commande d'installation : 	npm install
+commande de lancement de l'app: npm run dev
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
